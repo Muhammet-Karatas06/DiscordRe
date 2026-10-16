@@ -12,7 +12,7 @@ import shutil
 
 #-------------------------------------------------------------------
 
-os.startfile(r"C:\Users\muhammet\Desktop\Discord.lnk") #Programı Başlatıyor
+os.startfile(r"File Way") #Programı Başlatıyor
 
 #-------------------------------------------------------------------
 
@@ -40,13 +40,13 @@ screen.activate() #Seçilen programı en üste odak noktaya getirir
 
 time.sleep(12)
 
-pyautogui.write("karatassmuhammet18",interval=0.1)
+pyautogui.write("Email name",interval=0.1)
 pyautogui.hotkey("ctrl","alt","q")
 pyautogui.write("gmail.com",interval=0.1)
 time.sleep(0.8)
 pyautogui.press("tab")
 time.sleep(0.8)
-pyautogui.write("1234567890Dominus_YT6",interval=0.1)
+pyautogui.write("Password",interval=0.1)
 time.sleep(0.8)
 pyautogui.press("tab")
 time.sleep(0.8)
